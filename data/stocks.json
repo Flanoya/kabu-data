@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T07:40:35+00:00",
+  "generated_at": "2026-11-10T12:09:42+00:00",
   "attribution": "出典：金融庁 EDINET（公共データ利用規約 第1.0版 PDL1.0）を加工して作成",
   "note": "開示書類の数値をそのまま整理したもので、銘柄の評価や推奨ではありません。",
-  "count": 3821,
+  "count": 3780,
   "stocks": [
     {
       "sec_code": "1301",
@@ -4217,32 +4217,6 @@
       }
     },
     {
-      "sec_code": "1948",
-      "name": "株式会社弘電社",
-      "edinet_code": "E02569",
-      "industry": "建設業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 44234000000.0,
-      "revenue_prior": 39264000000.0,
-      "revenue_label": "売上高",
-      "net_income": 2832000000.0,
-      "net_income_prior": 2737000000.0,
-      "dividend_per_share": 100.0,
-      "employees": 696,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YFSO",
-      "submitted_at": "2026-06-22 10:00",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "194A",
       "name": "株式会社ＷＯＬＶＥＳ　ＨＡＮＤ",
       "edinet_code": "E39640",
@@ -6034,32 +6008,6 @@
         "revenue": "jpcrp_cor:RevenueIFRSSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentIFRSSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
-      "sec_code": "2162",
-      "name": "ｎｍｓホールディングス株式会社",
-      "edinet_code": "E05676",
-      "industry": "サービス業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 75660628000.0,
-      "revenue_prior": 75707594000.0,
-      "revenue_label": "売上高",
-      "net_income": 308462000.0,
-      "net_income_prior": 779350000.0,
-      "dividend_per_share": 3.0,
-      "employees": 13047,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100YF8Q",
-      "submitted_at": "2026-06-26 14:04",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
       }
     },
     {
@@ -10119,32 +10067,6 @@
       }
     },
     {
-      "sec_code": "2540",
-      "name": "養命酒製造株式会社",
-      "edinet_code": "E00400",
-      "industry": "食料品",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "non_consolidated",
-      "revenue": 9628105000.0,
-      "revenue_prior": 10017259000.0,
-      "revenue_label": "売上高",
-      "net_income": -2271426000.0,
-      "net_income_prior": 679583000.0,
-      "dividend_per_share": 0.0,
-      "employees": 289,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100YK3W",
-      "submitted_at": "2026-06-25 15:32",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "254A",
       "name": "ＡＩフュージョンキャピタルグループ株式会社",
       "edinet_code": "E39737",
@@ -11237,32 +11159,6 @@
       }
     },
     {
-      "sec_code": "2686",
-      "name": "株式会社ジーフット",
-      "edinet_code": "E03370",
-      "industry": "小売業",
-      "fiscal_period_end": "2026-02-28",
-      "basis": "consolidated",
-      "revenue": 56906000000.0,
-      "revenue_prior": 59975000000.0,
-      "revenue_label": "売上高",
-      "net_income": -3257000000.0,
-      "net_income_prior": -1060000000.0,
-      "dividend_per_share": 0.0,
-      "employees": 726,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100Y651",
-      "submitted_at": "2026-05-25 11:47",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "2687",
       "name": "株式会社シー・ヴイ・エス・ベイエリア",
       "edinet_code": "E03372",
@@ -12118,32 +12014,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
-      "sec_code": "2763",
-      "name": "株式会社エフティグループ",
-      "edinet_code": "E03405",
-      "industry": "卸売業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 31579000000.0,
-      "revenue_prior": 34625000000.0,
-      "revenue_label": "売上収益",
-      "net_income": 6461000000.0,
-      "net_income_prior": 6613000000.0,
-      "dividend_per_share": 55.0,
-      "employees": 57,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100YLMI",
-      "submitted_at": "2026-06-29 10:11",
-      "source_elements": {
-        "revenue": "jpcrp_cor:RevenueIFRSSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentIFRSSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
       }
     },
     {
@@ -15401,21 +15271,21 @@
       "name": "ケイティケイ株式会社",
       "edinet_code": "E02995",
       "industry": "卸売業",
-      "fiscal_period_end": "2025-08-20",
+      "fiscal_period_end": "2026-08-20",
       "basis": "consolidated",
-      "revenue": 18927608000.0,
-      "revenue_prior": 18109789000.0,
+      "revenue": 20192379000.0,
+      "revenue_prior": 18927608000.0,
       "revenue_label": "売上高",
-      "net_income": 332198000.0,
-      "net_income_prior": 345327000.0,
-      "dividend_per_share": 17.0,
-      "employees": 309,
+      "net_income": 489557000.0,
+      "net_income_prior": 332198000.0,
+      "dividend_per_share": 21.0,
+      "employees": 324,
       "revenue_scale": "100億〜1,000億円",
       "revenue_increased": true,
-      "profit_increased": false,
+      "profit_increased": true,
       "has_dividend": true,
-      "doc_id": "S100WXKZ",
-      "submitted_at": "2025-11-11 14:02",
+      "doc_id": "S100ZBQZ",
+      "submitted_at": "2026-11-10 13:01",
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
@@ -16174,32 +16044,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
-      "sec_code": "3079",
-      "name": "ディーブイエックス株式会社",
-      "edinet_code": "E03005",
-      "industry": "卸売業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 55988774000.0,
-      "revenue_prior": 0.0,
-      "revenue_label": "売上高",
-      "net_income": 225381000.0,
-      "net_income_prior": null,
-      "dividend_per_share": 50.0,
-      "employees": 378,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": true,
-      "profit_increased": null,
-      "has_dividend": true,
-      "doc_id": "S100YL91",
-      "submitted_at": "2026-06-25 16:52",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
       }
     },
     {
@@ -18123,32 +17967,6 @@
       "source_elements": {
         "revenue": "jpcrp_cor:RevenueIFRSSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentIFRSSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "3198",
-      "name": "ＳＦＰホールディングス株式会社",
-      "edinet_code": "E31029",
-      "industry": "小売業",
-      "fiscal_period_end": "2026-02-28",
-      "basis": "consolidated",
-      "revenue": 31119339000.0,
-      "revenue_prior": 30389199000.0,
-      "revenue_label": "売上高",
-      "net_income": 1085499000.0,
-      "net_income_prior": 1485153000.0,
-      "dividend_per_share": 28.0,
-      "employees": 1149,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100Y5KF",
-      "submitted_at": "2026-05-21 15:15",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
       }
     },
@@ -21559,32 +21377,6 @@
       }
     },
     {
-      "sec_code": "3480",
-      "name": "株式会社ジェイ・エス・ビー",
-      "edinet_code": "E25148",
-      "industry": "不動産業",
-      "fiscal_period_end": "2025-10-31",
-      "basis": "consolidated",
-      "revenue": 76045573000.0,
-      "revenue_prior": 69529664000.0,
-      "revenue_label": "売上高",
-      "net_income": 5151212000.0,
-      "net_income_prior": 7452754000.0,
-      "dividend_per_share": 105.0,
-      "employees": 1254,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100XHE2",
-      "submitted_at": "2026-01-26 15:55",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "3482",
       "name": "ロードスターキャピタル株式会社",
       "edinet_code": "E32779",
@@ -22209,32 +22001,6 @@
       }
     },
     {
-      "sec_code": "3541",
-      "name": "株式会社農業総合研究所",
-      "edinet_code": "E32351",
-      "industry": "サービス業",
-      "fiscal_period_end": "2025-08-31",
-      "basis": "non_consolidated",
-      "revenue": 8358514000.0,
-      "revenue_prior": 7223458000.0,
-      "revenue_label": "売上高",
-      "net_income": 11025000.0,
-      "net_income_prior": 108759000.0,
-      "dividend_per_share": 0.0,
-      "employees": 123,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100X7ID",
-      "submitted_at": "2025-11-28 15:31",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "3542",
       "name": "株式会社ベガコーポレーション",
       "edinet_code": "E32420",
@@ -22310,32 +22076,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
-      "sec_code": "3546",
-      "name": "アレンザホールディングス株式会社",
-      "edinet_code": "E32382",
-      "industry": "小売業",
-      "fiscal_period_end": "2026-02-28",
-      "basis": "consolidated",
-      "revenue": 146093000000.0,
-      "revenue_prior": 148908000000.0,
-      "revenue_label": "売上高",
-      "net_income": 2544000000.0,
-      "net_income_prior": 2088000000.0,
-      "dividend_per_share": 19.0,
-      "employees": 1875,
-      "revenue_scale": "1,000億〜1兆円",
-      "revenue_increased": false,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100Y68G",
-      "submitted_at": "2026-05-26 14:03",
-      "source_elements": {
-        "revenue": "jppfs_cor:NetSales",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
       }
     },
     {
@@ -24289,32 +24029,6 @@
       }
     },
     {
-      "sec_code": "3681",
-      "name": "株式会社ブイキューブ",
-      "edinet_code": "E30114",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2025-12-31",
-      "basis": "consolidated",
-      "revenue": 9859467000.0,
-      "revenue_prior": 10463846000.0,
-      "revenue_label": "売上高",
-      "net_income": -3696528000.0,
-      "net_income_prior": -1417278000.0,
-      "dividend_per_share": 0.0,
-      "employees": 344,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100Y1NL",
-      "submitted_at": "2026-04-30 15:30",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "3682",
       "name": "エンカレッジ・テクノロジ株式会社",
       "edinet_code": "E30085",
@@ -25563,32 +25277,6 @@
       }
     },
     {
-      "sec_code": "3787",
-      "name": "株式会社テクノマセマティカル",
-      "edinet_code": "E05445",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "non_consolidated",
-      "revenue": 685631000.0,
-      "revenue_prior": 416588000.0,
-      "revenue_label": "売上高",
-      "net_income": 85994000.0,
-      "net_income_prior": -285004000.0,
-      "dividend_per_share": 0.0,
-      "employees": 55,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100YI1N",
-      "submitted_at": "2026-06-23 14:49",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "3788",
       "name": "ＧＭＯグローバルサイン・ホールディングス株式会社",
       "edinet_code": "E05545",
@@ -26577,32 +26265,6 @@
       }
     },
     {
-      "sec_code": "3856",
-      "name": "Ａｂａｌａｎｃｅ株式会社",
-      "edinet_code": "E05713",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 120169000000.0,
-      "revenue_prior": 62828000000.0,
-      "revenue_label": "売上高",
-      "net_income": 7722000000.0,
-      "net_income_prior": -314000000.0,
-      "dividend_per_share": 3.0,
-      "employees": 3498,
-      "revenue_scale": "1,000億〜1兆円",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YXMA",
-      "submitted_at": "2026-08-19 11:48",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "3858",
       "name": "株式会社ユビキタスＡＩ",
       "edinet_code": "E05719",
@@ -27016,32 +26678,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "3902",
-      "name": "メディカル・データ・ビジョン株式会社",
-      "edinet_code": "E31056",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2025-12-31",
-      "basis": "consolidated",
-      "revenue": 6539159000.0,
-      "revenue_prior": 5906958000.0,
-      "revenue_label": "売上高",
-      "net_income": 280242000.0,
-      "net_income_prior": -791169000.0,
-      "dividend_per_share": 0.0,
-      "employees": 336,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100XSN5",
-      "submitted_at": "2026-03-24 16:34",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
     {
@@ -31309,32 +30945,6 @@
       }
     },
     {
-      "sec_code": "4171",
-      "name": "株式会社グローバルインフォメーション",
-      "edinet_code": "E36172",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2025-12-31",
-      "basis": "consolidated",
-      "revenue": 2567624000.0,
-      "revenue_prior": 2749260000.0,
-      "revenue_label": "売上高",
-      "net_income": 232163000.0,
-      "net_income_prior": 315061000.0,
-      "dividend_per_share": 60.0,
-      "employees": 51,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100XTHD",
-      "submitted_at": "2026-03-25 12:00",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "4172",
       "name": "東和ハイシステム株式会社",
       "edinet_code": "E36002",
@@ -34169,32 +33779,6 @@
       }
     },
     {
-      "sec_code": "4367",
-      "name": "広栄化学株式会社",
-      "edinet_code": "E00837",
-      "industry": "化学",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "non_consolidated",
-      "revenue": 17009185000.0,
-      "revenue_prior": 20018256000.0,
-      "revenue_label": "売上高",
-      "net_income": -5135049000.0,
-      "net_income_prior": 288382000.0,
-      "dividend_per_share": 80.0,
-      "employees": 402,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100YKG9",
-      "submitted_at": "2026-06-25 14:51",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "4368",
       "name": "扶桑化学工業株式会社",
       "edinet_code": "E01056",
@@ -36093,32 +35677,6 @@
       }
     },
     {
-      "sec_code": "4449",
-      "name": "株式会社ギフティ",
-      "edinet_code": "E35096",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2025-12-31",
-      "basis": "consolidated",
-      "revenue": 14149000000.0,
-      "revenue_prior": 9554000000.0,
-      "revenue_label": "売上高",
-      "net_income": 935000000.0,
-      "net_income_prior": -510000000.0,
-      "dividend_per_share": 13.0,
-      "employees": 685,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100XUO8",
-      "submitted_at": "2026-03-27 16:35",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "4450",
       "name": "株式会社パワーソリューションズ",
       "edinet_code": "E35137",
@@ -36792,32 +36350,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "4494",
-      "name": "バリオセキュア株式会社",
-      "edinet_code": "E35544",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2026-02-28",
-      "basis": "non_consolidated",
-      "revenue": 2842655000.0,
-      "revenue_prior": 2667539000.0,
-      "revenue_label": "売上高",
-      "net_income": 105811000.0,
-      "net_income_prior": 72049000.0,
-      "dividend_per_share": 0.0,
-      "employees": 83,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100Y6VZ",
-      "submitted_at": "2026-05-27 14:58",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
     {
@@ -41059,32 +40591,6 @@
       }
     },
     {
-      "sec_code": "4800",
-      "name": "オリコン株式会社",
-      "edinet_code": "E05143",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 6320892000.0,
-      "revenue_prior": 4916037000.0,
-      "revenue_label": "売上高",
-      "net_income": 625400000.0,
-      "net_income_prior": 992077000.0,
-      "dividend_per_share": 36.0,
-      "employees": 196,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100YJQT",
-      "submitted_at": "2026-06-25 15:32",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "4801",
       "name": "セントラルスポーツ株式会社",
       "edinet_code": "E05145",
@@ -44231,32 +43737,6 @@
       }
     },
     {
-      "sec_code": "5103",
-      "name": "昭和ホールディングス株式会社",
-      "edinet_code": "E01088",
-      "industry": "ゴム製品",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 8558874000.0,
-      "revenue_prior": 8619822000.0,
-      "revenue_label": "売上高",
-      "net_income": -576117000.0,
-      "net_income_prior": -203709000.0,
-      "dividend_per_share": 0.0,
-      "employees": 311,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100YJM4",
-      "submitted_at": "2026-06-24 16:25",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "5105",
       "name": "ＴＯＹＯ　ＴＩＲＥ株式会社",
       "edinet_code": "E01090",
@@ -45037,32 +44517,6 @@
       }
     },
     {
-      "sec_code": "5202",
-      "name": "日本板硝子株式会社",
-      "edinet_code": "E01121",
-      "industry": "ガラス・土石製品",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 879462000000.0,
-      "revenue_prior": 840401000000.0,
-      "revenue_label": "売上収益",
-      "net_income": 4421000000.0,
-      "net_income_prior": -13831000000.0,
-      "dividend_per_share": 0.0,
-      "employees": 24838,
-      "revenue_scale": "1,000億〜1兆円",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100YL06",
-      "submitted_at": "2026-06-25 15:21",
-      "source_elements": {
-        "revenue": "jpcrp_cor:RevenueIFRSSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentIFRSSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "5204",
       "name": "石塚硝子株式会社",
       "edinet_code": "E01123",
@@ -45761,32 +45215,6 @@
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
-      "sec_code": "5259",
-      "name": "ＢＢＤイニシアティブ株式会社",
-      "edinet_code": "E38288",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2025-09-30",
-      "basis": "consolidated",
-      "revenue": 4399466000.0,
-      "revenue_prior": 4127625000.0,
-      "revenue_label": "売上収益",
-      "net_income": -377478000.0,
-      "net_income_prior": 164727000.0,
-      "dividend_per_share": 0.0,
-      "employees": 215,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100XCEC",
-      "submitted_at": "2025-12-23 12:11",
-      "source_elements": {
-        "revenue": "jpcrp_cor:RevenueIFRSSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentIFRSSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
@@ -47403,32 +46831,6 @@
       }
     },
     {
-      "sec_code": "5484",
-      "name": "東北特殊鋼株式会社",
-      "edinet_code": "E01245",
-      "industry": "鉄鋼",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 20931280000.0,
-      "revenue_prior": 21178080000.0,
-      "revenue_label": "売上高",
-      "net_income": 1275680000.0,
-      "net_income_prior": 1008124000.0,
-      "dividend_per_share": 15.0,
-      "employees": 572,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YNM9",
-      "submitted_at": "2026-06-30 16:50",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "548A",
       "name": "株式会社システムエグゼ",
       "edinet_code": "E41485",
@@ -48696,32 +48098,6 @@
       "has_dividend": true,
       "doc_id": "S100YDZS",
       "submitted_at": "2026-06-22 09:40",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "5660",
-      "name": "神鋼鋼線工業株式会社",
-      "edinet_code": "E01282",
-      "industry": "鉄鋼",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 33074000000.0,
-      "revenue_prior": 34293000000.0,
-      "revenue_label": "売上高",
-      "net_income": 1120000000.0,
-      "net_income_prior": 1034000000.0,
-      "dividend_per_share": 65.0,
-      "employees": 927,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YJTL",
-      "submitted_at": "2026-06-25 15:41",
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
@@ -53383,32 +52759,6 @@
       }
     },
     {
-      "sec_code": "6096",
-      "name": "株式会社レアジョブ",
-      "edinet_code": "E30682",
-      "industry": "サービス業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 9600579000.0,
-      "revenue_prior": 9715742000.0,
-      "revenue_label": "売上高",
-      "net_income": 325777000.0,
-      "net_income_prior": 268908000.0,
-      "dividend_per_share": 8.0,
-      "employees": 572,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": false,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YIA0",
-      "submitted_at": "2026-06-23 16:33",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "6098",
       "name": "株式会社リクルートホールディングス",
       "edinet_code": "E07801",
@@ -54757,32 +54107,6 @@
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "6197",
-      "name": "株式会社ソラスト",
-      "edinet_code": "E04878",
-      "industry": "サービス業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 141144000000.0,
-      "revenue_prior": 137435000000.0,
-      "revenue_label": "売上高",
-      "net_income": 3740000000.0,
-      "net_income_prior": 3960000000.0,
-      "dividend_per_share": 11.0,
-      "employees": 33674,
-      "revenue_scale": "1,000億〜1兆円",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100YGQU",
-      "submitted_at": "2026-06-23 09:55",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
       }
     },
@@ -59177,32 +58501,6 @@
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "6486",
-      "name": "イーグル工業株式会社",
-      "edinet_code": "E01414",
-      "industry": "機械",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 177488000000.0,
-      "revenue_prior": 168172000000.0,
-      "revenue_label": "売上高",
-      "net_income": 9828000000.0,
-      "net_income_prior": 4877000000.0,
-      "dividend_per_share": 125.0,
-      "employees": 6188,
-      "revenue_scale": "1,000億〜1兆円",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YFUB",
-      "submitted_at": "2026-06-22 09:17",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
       }
     },
@@ -68826,32 +68124,6 @@
       }
     },
     {
-      "sec_code": "7183",
-      "name": "あんしん保証株式会社",
-      "edinet_code": "E31905",
-      "industry": "その他金融業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "non_consolidated",
-      "revenue": 6162390000.0,
-      "revenue_prior": 5376184000.0,
-      "revenue_label": "営業収益",
-      "net_income": 291952000.0,
-      "net_income_prior": 89580000.0,
-      "dividend_per_share": 0.0,
-      "employees": 135,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100YCZS",
-      "submitted_at": "2026-06-18 13:08",
-      "source_elements": {
-        "revenue": "jpcrp_cor:OperatingRevenue1SummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "7184",
       "name": "株式会社　富山第一銀行",
       "edinet_code": "E03646",
@@ -69710,32 +68982,6 @@
       }
     },
     {
-      "sec_code": "7240",
-      "name": "ＮＯＫ株式会社",
-      "edinet_code": "E02176",
-      "industry": "輸送用機器",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 738434000000.0,
-      "revenue_prior": 766859000000.0,
-      "revenue_label": "売上高",
-      "net_income": 46338000000.0,
-      "net_income_prior": 30320000000.0,
-      "dividend_per_share": 130.0,
-      "employees": 36655,
-      "revenue_scale": "1,000億〜1兆円",
-      "revenue_increased": false,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YFWJ",
-      "submitted_at": "2026-06-22 12:55",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "7241",
       "name": "フタバ産業株式会社",
       "edinet_code": "E02195",
@@ -69911,32 +69157,6 @@
       "has_dividend": true,
       "doc_id": "S100YFXP",
       "submitted_at": "2026-06-25 16:03",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "7255",
-      "name": "株式会社　桜井製作所",
-      "edinet_code": "E01644",
-      "industry": "輸送用機器",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 4928000000.0,
-      "revenue_prior": 4964000000.0,
-      "revenue_label": "売上高",
-      "net_income": 234000000.0,
-      "net_income_prior": 211000000.0,
-      "dividend_per_share": 15.0,
-      "employees": 271,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": false,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YI1Y",
-      "submitted_at": "2026-06-26 11:46",
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
@@ -70747,32 +69967,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "7317",
-      "name": "株式会社松屋アールアンドディ",
-      "edinet_code": "E35560",
-      "industry": "機械",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 9771382000.0,
-      "revenue_prior": 9567398000.0,
-      "revenue_label": "売上高",
-      "net_income": 1549955000.0,
-      "net_income_prior": 1560404000.0,
-      "dividend_per_share": 0.0,
-      "employees": 1552,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100YI6P",
-      "submitted_at": "2026-06-26 15:30",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
     {
@@ -72154,32 +71348,6 @@
       }
     },
     {
-      "sec_code": "7426",
-      "name": "株式会社　山大",
-      "edinet_code": "E02798",
-      "industry": "卸売業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 4102141000.0,
-      "revenue_prior": 4138547000.0,
-      "revenue_label": "売上高",
-      "net_income": -280770000.0,
-      "net_income_prior": -1436955000.0,
-      "dividend_per_share": 0.0,
-      "employees": 102,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": false,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100YMIT",
-      "submitted_at": "2026-06-29 09:47",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "7427",
       "name": "エコートレーディング株式会社",
       "edinet_code": "E02801",
@@ -72411,32 +71579,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "7445",
-      "name": "株式会社ライトオン",
-      "edinet_code": "E03240",
-      "industry": "小売業",
-      "fiscal_period_end": "2025-08-31",
-      "basis": "non_consolidated",
-      "revenue": 28130000000.0,
-      "revenue_prior": 38808000000.0,
-      "revenue_label": "売上高",
-      "net_income": -449000000.0,
-      "net_income_prior": -12142000000.0,
-      "dividend_per_share": 0.0,
-      "employees": 435,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100X6V7",
-      "submitted_at": "2025-11-27 14:00",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
     {
@@ -76184,32 +75326,6 @@
       }
     },
     {
-      "sec_code": "7739",
-      "name": "キヤノン電子株式会社",
-      "edinet_code": "E02301",
-      "industry": "電気機器",
-      "fiscal_period_end": "2025-12-31",
-      "basis": "consolidated",
-      "revenue": 104421000000.0,
-      "revenue_prior": 100656000000.0,
-      "revenue_label": "売上高",
-      "net_income": 6503000000.0,
-      "net_income_prior": 7655000000.0,
-      "dividend_per_share": 35.0,
-      "employees": 5574,
-      "revenue_scale": "1,000億〜1兆円",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100XSYM",
-      "submitted_at": "2026-03-25 09:28",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "7740",
       "name": "株式会社タムロン",
       "edinet_code": "E02308",
@@ -79119,32 +78235,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "7940",
-      "name": "ウェーブロックホールディングス株式会社",
-      "edinet_code": "E33050",
-      "industry": "その他製品",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 25137073000.0,
-      "revenue_prior": 25566685000.0,
-      "revenue_label": "売上高",
-      "net_income": 302103000.0,
-      "net_income_prior": 520797000.0,
-      "dividend_per_share": 0.0,
-      "employees": 628,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100YDAF",
-      "submitted_at": "2026-06-17 15:05",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
     {
@@ -83828,32 +82918,6 @@
       }
     },
     {
-      "sec_code": "8283",
-      "name": "株式会社ＰＡＬＴＡＣ",
-      "edinet_code": "E02691",
-      "industry": "卸売業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "non_consolidated",
-      "revenue": 1237846000000.0,
-      "revenue_prior": 1188097000000.0,
-      "revenue_label": "売上高",
-      "net_income": 22031000000.0,
-      "net_income_prior": 22864000000.0,
-      "dividend_per_share": 120.0,
-      "employees": 2363,
-      "revenue_scale": "1兆円以上",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100YDG4",
-      "submitted_at": "2026-06-19 13:27",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "8285",
       "name": "三谷産業株式会社",
       "edinet_code": "E02692",
@@ -83877,32 +82941,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "8289",
-      "name": "株式会社Ｏｌｙｍｐｉｃグループ",
-      "edinet_code": "E03132",
-      "industry": "小売業",
-      "fiscal_period_end": "2026-02-28",
-      "basis": "consolidated",
-      "revenue": 90809000000.0,
-      "revenue_prior": 91557000000.0,
-      "revenue_label": "売上高",
-      "net_income": -3798000000.0,
-      "net_income_prior": -67000000.0,
-      "dividend_per_share": 0.0,
-      "employees": 1457,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100Y77X",
-      "submitted_at": "2026-05-28 16:10",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
     {
@@ -90614,32 +89652,6 @@
       }
     },
     {
-      "sec_code": "9223",
-      "name": "株式会社ＡＳＮＯＶＡ",
-      "edinet_code": "E35797",
-      "industry": "サービス業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 4915181000.0,
-      "revenue_prior": 4266335000.0,
-      "revenue_label": "売上高",
-      "net_income": -146048000.0,
-      "net_income_prior": -24765000.0,
-      "dividend_per_share": 2.0,
-      "employees": 231,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": true,
-      "doc_id": "S100YJ2P",
-      "submitted_at": "2026-06-24 16:00",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
       "sec_code": "9225",
       "name": "ブリッジコンサルティンググループ株式会社",
       "edinet_code": "E37810",
@@ -92200,32 +91212,6 @@
       }
     },
     {
-      "sec_code": "9338",
-      "name": "株式会社ＩＮＦＯＲＩＣＨ",
-      "edinet_code": "E38192",
-      "industry": "サービス業",
-      "fiscal_period_end": "2025-12-31",
-      "basis": "consolidated",
-      "revenue": 14431778000.0,
-      "revenue_prior": 10701124000.0,
-      "revenue_label": "売上高",
-      "net_income": 1779842000.0,
-      "net_income_prior": 2061074000.0,
-      "dividend_per_share": 0.0,
-      "employees": 303,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": true,
-      "profit_increased": false,
-      "has_dividend": false,
-      "doc_id": "S100XR70",
-      "submitted_at": "2026-03-16 15:52",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
       "sec_code": "9339",
       "name": "株式会社コーチ・エィ",
       "edinet_code": "E38178",
@@ -93244,21 +92230,21 @@
       "name": "日本ＢＳ放送株式会社",
       "edinet_code": "E30454",
       "industry": "情報・通信業",
-      "fiscal_period_end": "2025-08-31",
+      "fiscal_period_end": "2026-08-31",
       "basis": "consolidated",
-      "revenue": 11812703000.0,
-      "revenue_prior": 12241507000.0,
+      "revenue": 11921728000.0,
+      "revenue_prior": 11812703000.0,
       "revenue_label": "売上高",
-      "net_income": 1345307000.0,
-      "net_income_prior": 1455519000.0,
+      "net_income": 1298529000.0,
+      "net_income_prior": 1345307000.0,
       "dividend_per_share": 30.0,
-      "employees": 128,
+      "employees": 131,
       "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": false,
+      "revenue_increased": true,
       "profit_increased": false,
       "has_dividend": true,
-      "doc_id": "S100X54M",
-      "submitted_at": "2025-11-18 15:30",
+      "doc_id": "S100ZCDP",
+      "submitted_at": "2026-11-10 15:30",
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
@@ -94247,32 +93233,6 @@
       "has_dividend": true,
       "doc_id": "S100YH23",
       "submitted_at": "2026-06-24 10:24",
-      "source_elements": {
-        "revenue": "jpcrp_cor:OperatingRevenue1SummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "9508",
-      "name": "九州電力株式会社",
-      "edinet_code": "E04506",
-      "industry": "電気・ガス業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 2247214000000.0,
-      "revenue_prior": 2356833000000.0,
-      "revenue_label": "営業収益",
-      "net_income": 154535000000.0,
-      "net_income_prior": 128766000000.0,
-      "dividend_per_share": 50.0,
-      "employees": 21189,
-      "revenue_scale": "1兆円以上",
-      "revenue_increased": false,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YHHO",
-      "submitted_at": "2026-06-24 09:37",
       "source_elements": {
         "revenue": "jpcrp_cor:OperatingRevenue1SummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
@@ -95937,32 +94897,6 @@
       "has_dividend": true,
       "doc_id": "S100YIFE",
       "submitted_at": "2026-06-25 15:13",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "9691",
-      "name": "株式会社両毛システムズ",
-      "edinet_code": "E04855",
-      "industry": "情報・通信業",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 25735007000.0,
-      "revenue_prior": 22486427000.0,
-      "revenue_label": "売上高",
-      "net_income": 2155927000.0,
-      "net_income_prior": 1569534000.0,
-      "dividend_per_share": 44.0,
-      "employees": 1066,
-      "revenue_scale": "100億〜1,000億円",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": true,
-      "doc_id": "S100YIGO",
-      "submitted_at": "2026-06-23 16:35",
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
