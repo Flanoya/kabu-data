@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-07",
+  "note": "外部ページへのリンク定義。アプリはこのファイルを起動時に取得し、{code}（4桁の銘柄コード）と{name}（会社名、URLエンコード済み）を置き換えてSafari画面で開く。ページの内容は取得・保存しない。公開前に各URLの動作と各サイトの利用規約を確認すること。",
+  "price": [
+    {
+      "id": "yahoo_finance",
+      "label": "Yahoo!ファイナンスで株価を見る",
+      "url": "https://finance.yahoo.co.jp/quote/{code}.T",
+      "default": true
+    },
+    {
+      "id": "kabutan",
+      "label": "株探で株価を見る",
+      "url": "https://kabutan.jp/stock/?code={code}",
+      "default": false
+    }
+  ],
+  "news": [
+    {
+      "id": "google_news",
+      "label": "ニュースを検索する（Googleニュース）",
+      "url": "https://news.google.com/search?q={name}&hl=ja&gl=JP&ceid=JP:ja",
+      "default": true
+    },
+    {
+      "id": "yahoo_finance_news",
+      "label": "Yahoo!ファイナンスのニュースを見る",
+      "url": "https://finance.yahoo.co.jp/quote/{code}.T/news",
+      "default": false
+    }
+  ],
+  "disclosure": [
+    {
+      "id": "tdnet_viewer",
+      "label": "東証の適時開示情報閲覧サービス（直近31日分）",
+      "url": "https://www.release.tdnet.info/inbs/I_main_00.html",
+      "hint": "このページは銘柄で絞り込めないため、画面上で会社名か銘柄コードを探すよう案内文を表示する",
+      "default": true
+    }
+  ],
+  "required_steps": {
+    "pre_purchase": ["price", "news"],
+    "daily_checkin": ["price", "news"]
+  }
+}

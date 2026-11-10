@@ -1,0 +1,10 @@
+cache/
+site/
+__pycache__/
+*.pyc
+edinet_result_*.zip
+elements_*.txt
+stocks_*.json
+summary_*.txt
+log_*.txt
+.DS_Store

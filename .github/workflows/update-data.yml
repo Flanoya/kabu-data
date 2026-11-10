@@ -1,0 +1,102 @@
+# 毎日、EDINETから新しく提出された有価証券報告書を取り込み、アプリ用データを GitHub Pages に公開する。
+#
+# 事前準備（README.md の手順を参照）
+#   1. リポジトリの Settings → Secrets and variables → Actions に EDINET_API_KEY を登録
+#   2. Settings → Pages → Build and deployment の Source を「GitHub Actions」にする
+#   3. data/stocks.json（手元で作った1年分のデータ）をコミットしておく
+name: Update stock data
+
+on:
+  schedule:
+    # 毎日 20:17（日本時間）。EDINETの書類は平日日中に提出されるため、夜に取り込む。
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "何日前までさかのぼって取り込むか（通常は7）"
+        required: false
+        default: "7"
+
+permissions:
+  contents: write   # data/stocks.json を更新してコミットするため
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-stock-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: テスト
+        run: python -m unittest test_edinet_stock_builder.py test_build_app_data.py
+
+      # ダウンロード済みのCSV（ZIP）を前回の実行から引き継ぐ（同じ書類を何度も取りに行かないため）
+      - name: キャッシュを復元
+        uses: actions/cache/restore@v4
+        with:
+          path: cache
+          key: edinet-cache-${{ github.run_id }}
+          restore-keys: edinet-cache-
+
+      - name: EDINETから取り込み
+        env:
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+          DAYS: ${{ inputs.days || '7' }}
+        run: |
+          TO=$(TZ=Asia/Tokyo date +%F)
+          FROM=$(TZ=Asia/Tokyo date -d "-${DAYS} days" +%F)
+          echo "期間: ${FROM} 〜 ${TO}"
+          python edinet_stock_builder.py --from "$FROM" --to "$TO" \
+            --out data/stocks.json --cache-dir cache --prune-delisted
+
+      - name: アプリ用データを作成（不備があればここで止まり、公開しない）
+        run: python build_app_data.py --in data/stocks.json --out site
+
+      - name: data/stocks.json をコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stocks.json
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "データ更新 $(TZ=Asia/Tokyo date +%F)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: 古いキャッシュを削除
+        run: |
+          find cache/csv -type f -mtime +14 -delete 2>/dev/null || true
+          find cache/lists -type f -mtime +30 -delete 2>/dev/null || true
+
+      - name: キャッシュを保存
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: cache
+          key: edinet-cache-${{ github.run_id }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
