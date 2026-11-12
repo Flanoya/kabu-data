@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T12:07:02+00:00",
+  "generated_at": "2026-11-12T12:09:40+00:00",
   "attribution": "出典：金融庁 EDINET（公共データ利用規約 第1.0版 PDL1.0）を加工して作成",
   "note": "開示書類の数値をそのまま整理したもので、銘柄の評価や推奨ではありません。",
-  "count": 3780,
+  "count": 3779,
   "stocks": [
     {
       "sec_code": "1301",
@@ -74829,32 +74829,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "7709",
-      "name": "クボテック株式会社",
-      "edinet_code": "E02337",
-      "industry": "精密機器",
-      "fiscal_period_end": "2026-03-31",
-      "basis": "consolidated",
-      "revenue": 2102020000.0,
-      "revenue_prior": 1662057000.0,
-      "revenue_label": "売上高",
-      "net_income": -156063000.0,
-      "net_income_prior": -200891000.0,
-      "dividend_per_share": 0.0,
-      "employees": 64,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100XQ6A",
-      "submitted_at": "2026-06-29 09:23",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
     {
