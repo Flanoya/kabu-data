@@ -258,6 +258,29 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(fin["revenue_prior"], 0.0)
         self.assertEqual(fin["revenue_label"], "事業収益")
 
+    def test_annual_dash_with_interim_is_paid(self):
+        # 日本製鉄（S100YF8E）の形：期中の株式分割で年間配当欄が「－」、中間配当は60円
+        rows = CONSOLIDATED_ROWS_NO_DIV + [
+            ("jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults", "CurrentYearDuration_NonConsolidatedMember", "－"),
+            ("jpcrp_cor:InterimDividendPaidPerShareSummaryOfBusinessResults", "CurrentYearDuration_NonConsolidatedMember", "60.00"),
+        ]
+        z = make_csv_zip(rows)
+        fin = esb.extract_financials(esb.build_fact_index(esb.read_main_csv_rows(z)))
+        self.assertIsNone(fin["dividend_per_share"])
+        self.assertTrue(fin["dividend_paid"])
+        self.assertIn("中間配当 60円あり", fin["source_elements"]["dividend"])
+        st = esb.build_stock(doc("S1", "E1", "54010", "日本製鉄", "2026-06-23 09:00"), z, {})
+        self.assertTrue(st.has_dividend)
+
+    def test_annual_dash_and_interim_dash_is_no_dividend(self):
+        rows = CONSOLIDATED_ROWS_NO_DIV + [
+            ("jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults", "CurrentYearDuration_NonConsolidatedMember", "－"),
+            ("jpcrp_cor:InterimDividendPaidPerShareSummaryOfBusinessResults", "CurrentYearDuration_NonConsolidatedMember", "－"),
+        ]
+        fin = esb.extract_financials(esb.build_fact_index(esb.read_main_csv_rows(make_csv_zip(rows))))
+        self.assertEqual(fin["dividend_per_share"], 0.0)
+        self.assertFalse(fin["dividend_paid"])
+
     def test_dividend_element_absent_stays_none(self):
         rows = [r for r in CONSOLIDATED_ROWS if "Dividend" not in r[0]]
         fin = esb.extract_financials(esb.build_fact_index(esb.read_main_csv_rows(make_csv_zip(rows))))

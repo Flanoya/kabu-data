@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:06:20+00:00",
+  "generated_at": "2026-11-14T06:10:22+00:00",
   "attribution": "出典：金融庁 EDINET（公共データ利用規約 第1.0版 PDL1.0）を加工して作成",
   "note": "開示書類の数値をそのまま整理したもので、銘柄の評価や推奨ではありません。",
   "count": 3779,
@@ -46322,18 +46322,18 @@
       "revenue_label": "売上収益",
       "net_income": 17158000000.0,
       "net_income_prior": 350227000000.0,
-      "dividend_per_share": 0.0,
+      "dividend_per_share": null,
       "employees": 138453,
       "revenue_scale": "1兆円以上",
       "revenue_increased": true,
       "profit_increased": false,
-      "has_dividend": false,
+      "has_dividend": true,
       "doc_id": "S100YF8E",
       "submitted_at": "2026-06-23 15:31",
       "source_elements": {
         "revenue": "jpcrp_cor:RevenueIFRSSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentIFRSSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
+        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (年間は「－」、中間配当 60円あり)"
       }
     },
     {
@@ -63534,18 +63534,18 @@
       "revenue_label": "売上高",
       "net_income": 2042000000.0,
       "net_income_prior": 1991000000.0,
-      "dividend_per_share": 0.0,
+      "dividend_per_share": null,
       "employees": 1125,
       "revenue_scale": "100億〜1,000億円",
       "revenue_increased": true,
       "profit_increased": true,
-      "has_dividend": false,
+      "has_dividend": true,
       "doc_id": "S100YJHF",
       "submitted_at": "2026-06-25 09:07",
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
+        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (年間は「－」、中間配当 25円あり)"
       }
     },
     {

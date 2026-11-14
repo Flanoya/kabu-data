@@ -482,6 +482,27 @@ REVENUE_SEGMENT_TOTAL_ELEMENTS = [
 FINANCIAL_INDUSTRIES = ("銀行業", "保険業", "証券、商品先物取引業", "その他金融業")
 
 
+INTERIM_DIVIDEND_ELEMENTS = [
+    "jpcrp_cor:InterimDividendPaidPerShareSummaryOfBusinessResults",
+]
+
+
+def interim_dividend(index: dict) -> Optional[float]:
+    """1株当たり中間配当額（普通株式）。0より大きい値が見つかればそれを返す。"""
+    for ctx in (CTX_CUR_NC, CTX_CUR):
+        v, _ = pick(index, INTERIM_DIVIDEND_ELEMENTS, ctx)
+        if v is not None and v > 0:
+            return v
+        for (e, c), val in sorted(index.items(), key=lambda kv: kv[0]):
+            if c != ctx or val is DASH or val is None or val <= 0:
+                continue
+            local = e.split(":", 1)[-1]
+            if ("InterimDividendPaidPerShare" in local and "Common" in local
+                    and local.endswith("SummaryOfBusinessResults")):
+                return val
+    return None
+
+
 def pick_revenue_chain(index: dict, context: str) -> tuple[Optional[float], Optional[str]]:
     """業績の要約 → 金融業の経常収益 → 損益計算書本体 → 名前のパターン → セグメント合計、の順に探す。"""
     for elements in (REVENUE_ELEMENTS, REVENUE_FINANCIAL_ELEMENTS, REVENUE_STATEMENT_ELEMENTS):
@@ -546,6 +567,16 @@ def extract_financials(index: dict) -> dict:
         emp, _ = pick(index, EMPLOYEE_ELEMENTS, CTX_CUR_INSTANT_NC)
 
     div, div_e = pick_dividend(index)
+    # 年間の配当額が「－」でも、中間配当を払っている場合がある。
+    # 例：日本製鉄（期中に株式分割をしたため、分割前の中間配当と分割後の期末配当を足せず、年間欄が「－」）。
+    # この場合は「配当あり・金額は不明」とする（無配とは扱わない）。
+    dividend_paid: Optional[bool] = (div > 0) if div is not None else None
+    if div == 0.0 and div_e and "無配" in div_e:
+        interim = interim_dividend(index)
+        if interim is not None:
+            div = None
+            div_e = div_e.replace("(記載「－」→無配)", f"(年間は「－」、中間配当 {interim:g}円あり)")
+            dividend_paid = True
 
     return {
         "basis": basis,
@@ -553,6 +584,7 @@ def extract_financials(index: dict) -> dict:
         "revenue_label": revenue_label_for(rev_e),
         "net_income": ni, "net_income_prior": ni_p,
         "dividend_per_share": div,
+        "dividend_paid": dividend_paid,
         "employees": int(emp) if emp is not None else None,
         "source_elements": {k: v for k, v in
                             {"revenue": rev_e, "net_income": ni_e, "dividend": div_e}.items() if v},
@@ -649,7 +681,7 @@ def build_stock(doc: dict, zip_bytes: bytes, industries: dict[str, dict]) -> Sto
         revenue_scale=scale_bucket(fin["revenue"]),
         revenue_increased=compare(fin["revenue"], fin["revenue_prior"]),
         profit_increased=compare(fin["net_income"], fin["net_income_prior"]),
-        has_dividend=(div > 0) if div is not None else None,
+        has_dividend=fin["dividend_paid"],
         doc_id=doc.get("docID", ""),
         submitted_at=doc.get("submitDateTime"),
         source_elements=fin["source_elements"],
