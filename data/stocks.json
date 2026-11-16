@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15T11:53:36+00:00",
+  "generated_at": "2026-11-16T12:26:55+00:00",
   "attribution": "出典：金融庁 EDINET（公共データ利用規約 第1.0版 PDL1.0）を加工して作成",
   "note": "開示書類の数値をそのまま整理したもので、銘柄の評価や推奨ではありません。",
-  "count": 3779,
+  "count": 3777,
   "stocks": [
     {
       "sec_code": "1301",
@@ -18591,32 +18591,6 @@
       "source_elements": {
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
-      }
-    },
-    {
-      "sec_code": "3260",
-      "name": "株式会社エスポア",
-      "edinet_code": "E04086",
-      "industry": "不動産業",
-      "fiscal_period_end": "2026-02-28",
-      "basis": "consolidated",
-      "revenue": 556656000.0,
-      "revenue_prior": 306488000.0,
-      "revenue_label": "売上高",
-      "net_income": 11825000.0,
-      "net_income_prior": -247449000.0,
-      "dividend_per_share": 0.0,
-      "employees": 2,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100Y78C",
-      "submitted_at": "2026-05-28 16:26",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
@@ -66874,32 +66848,6 @@
         "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
         "net_income": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
         "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults"
-      }
-    },
-    {
-      "sec_code": "7082",
-      "name": "株式会社ジモティー",
-      "edinet_code": "E35289",
-      "industry": "サービス業",
-      "fiscal_period_end": "2025-12-31",
-      "basis": "non_consolidated",
-      "revenue": 1932044000.0,
-      "revenue_prior": 1774017000.0,
-      "revenue_label": "売上高",
-      "net_income": 472234000.0,
-      "net_income_prior": 471599000.0,
-      "dividend_per_share": 0.0,
-      "employees": 54,
-      "revenue_scale": "100億円未満",
-      "revenue_increased": true,
-      "profit_increased": true,
-      "has_dividend": false,
-      "doc_id": "S100XTWJ",
-      "submitted_at": "2026-03-25 15:56",
-      "source_elements": {
-        "revenue": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
-        "net_income": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
-        "dividend": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults (記載「－」→無配)"
       }
     },
     {
